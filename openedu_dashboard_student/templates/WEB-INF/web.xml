@@ -1,0 +1,191 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	
+	<display-name>Archetype Created Web Application</display-name>
+
+	<servlet>
+		<servlet-name>ShowTopServlet</servlet-name>
+		<display-name>ShowTopServlet</display-name>
+		<description></description>
+		<servlet-class>ShowTopServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>PractiveServlet</servlet-name>
+		<display-name>PractiveServlet</display-name>
+		<description></description>
+		<servlet-class>PractiveServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>BasicCourseDataServlet</servlet-name>
+		<display-name>BasicCourseDataServlet</display-name>
+		<description></description>
+		<servlet-class>BasicCourseDataServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>MovieDataServlet</servlet-name>
+		<display-name>MovieDataServlet</display-name>
+		<description></description>
+		<servlet-class>MovieDataServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ForumDataServlet</servlet-name>
+		<display-name>ForumDataServlet</display-name>
+		<description></description>
+		<servlet-class>ForumDataServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ChartDataServlet</servlet-name>
+		<display-name>ChartDataServlet</display-name>
+		<description></description>
+		<servlet-class>ChartDataServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>modalServlet</servlet-name>
+		<display-name>modalServlet</display-name>
+		<description></description>
+		<servlet-class>modalServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>indexServlet</servlet-name>
+		<display-name>indexServlet</display-name>
+		<description></description>
+		<servlet-class>indexServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>BeforeSurveyServlet</servlet-name>
+		<display-name>BeforeSurveyServlet</display-name>
+		<description></description>
+		<servlet-class>BeforeSurveyServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AfterSurveyServlet</servlet-name>
+		<display-name>AfterSurveyServlet</display-name>
+		<description></description>
+		<servlet-class>AfterSurveyServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>CourseActiveDataServlet</servlet-name>
+		<display-name>CourseActiveDataServlet</display-name>
+		<description></description>
+		<servlet-class>CourseActiveDataServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>analysisCourse</servlet-name>
+		<display-name>analysisCourse</display-name>
+		<description></description>
+		<servlet-class>analysisCourse</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>AnalysisCourseServlet</servlet-name>
+		<display-name>AnalysisCourseServlet</display-name>
+		<description></description>
+		<servlet-class>AnalysisCourseServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>MedalServlet</servlet-name>
+		<display-name>MedalServlet</display-name>
+		<description></description>
+		<servlet-class>MedalServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MedalServlet</servlet-name>
+		<url-pattern>/MedalServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ShowTopServlet</servlet-name>
+		<url-pattern>/ShowTopServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>PractiveServlet</servlet-name>
+		<url-pattern>/PractiveServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>BasicCourseDataServlet</servlet-name>
+		<url-pattern>/BasicCourseDataServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>MovieDataServlet</servlet-name>
+		<url-pattern>/MovieDataServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ForumDataServlet</servlet-name>
+		<url-pattern>/ForumDataServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ChartDataServlet</servlet-name>
+		<url-pattern>/ChartDataServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>modalServlet</servlet-name>
+		<url-pattern>/modalServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>indexServlet</servlet-name>
+		<url-pattern>/index</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>BeforeSurveyServlet</servlet-name>
+		<url-pattern>/BeforeSurveyServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AfterSurveyServlet</servlet-name>
+		<url-pattern>/AfterSurveyServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CourseActiveDataServlet</servlet-name>
+		<url-pattern>/CourseActiveDataServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>analysisCourse</servlet-name>
+		<url-pattern>/analysisCourse</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AnalysisCourseServlet</servlet-name>
+		<url-pattern>/AnalysisCourseServlet</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index</welcome-file>
+	</welcome-file-list>
+<!-- 	<security-constraint> -->
+<!-- 		<web-resource-collection> -->
+<!-- 			<web-resource-name>Wildcard means whole app requires authentication</web-resource-name> -->
+<!-- 			<url-pattern>/*</url-pattern> -->
+<!-- 			<http-method>GET</http-method> -->
+<!-- 			<http-method>POST</http-method> -->
+<!-- 		</web-resource-collection> -->
+<!-- 		<auth-constraint> -->
+<!-- 			<role-name>fcu</role-name> -->
+<!-- 			<role-name>admin</role-name> -->
+<!-- 			<role-name>manager</role-name> -->
+<!-- 			<role-name>tomcat</role-name> -->
+<!-- 		</auth-constraint> -->
+
+<!-- 		<user-data-constraint> -->
+<!-- 			 transport-guarantee can be CONFIDENTIAL, INTEGRAL, or NONE  --> 
+<!-- 			<transport-guarantee>NONE</transport-guarantee> -->
+<!-- 		</user-data-constraint> -->
+<!-- 	</security-constraint> -->
+
+<!-- 	<login-config> -->
+<!-- 		<auth-method>BASIC</auth-method> -->
+<!-- 	</login-config> -->
+<!-- 	<security-role> -->
+<!-- 		<role-name>fcu</role-name> -->
+<!-- 	</security-role> -->
+<!-- 	<security-role> -->
+<!-- 		<role-name>admin</role-name> -->
+<!-- 	</security-role> -->
+<!-- 	<security-role> -->
+<!-- 		<role-name>manager</role-name> -->
+<!-- 	</security-role> -->
+<!-- 	<security-role> -->
+<!-- 		<role-name>tomcat</role-name> -->
+<!-- 	</security-role> -->
+
+
+</web-app>
+
